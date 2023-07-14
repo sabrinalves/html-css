@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'IDroid';
+    src: url(fonts/IDroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(125, 226, 142);
+
+    }
+    article {
+        padding: 0px 70px 4px 70px;
+        background-color: white;
+        margin: 10px 70px 10px 70px ;
+    }
+    header {
+        background-color: green;
+        background-image: linear-gradient(to top, rgb(13, 65, 13), rgb(36, 133, 36), rgb(98, 201, 98));
+        padding: -1px 50px 80px 50px;
+        margin: -21px -9px -25px -10px;
+    }
+    header > h1 {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;   
+        padding: 0px 0px 70px 0px;
+    }
+    header > menu > a {
+        color: white;
+        padding: 10px 30px 10px 10px;
+        font-size: 12px;
+        margin: 10px 5px 10px -20px;
+    }
+    a {
+    text-decoration: none;
+    color: rgb(9, 124, 9);
+    font-weight: bold;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    * h1 {
+    font-family:'IDroid';
+    color: rgb(5, 102, 5);
+    }
+    h2 {
+    font-size: 19px;
+    font-family: 'IDroid';
+    color: rgb(5, 102, 5);
+    background-image: linear-gradient(to right, rgba(151, 243, 190, 0.89), rgba(135, 247, 182, 0.212), rgba(120, 231, 166, 0.041));
+    }
+   header > p {
+    text-align: center;
+     font-size: 16px;
+    margin: -69px 10px 26px 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+   }
+   picture .uaua {
+    margin: auto;
+    display: block;
+   }
+   article > iframe {
+    background-color: rgb(108, 163, 108);
+    margin: auto;
+    display: block;
+    padding: 23px 90px 22px 90px
+   }
+   article > nav {
+    background-color: rgb(185, 224, 185);
+    height: 325px;
+    width: 819px;
+    padding: 10px;
+    margin: 3px 14px -4px -29px;
+    border-radius: 10px 10px 10px 10px;
+   }
+   p.titu {
+    background-color: rgb(73, 146, 70);
+    margin: -9px -10px -9px -10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+   }
+   ul {
+    list-style: inside;
+    list-style-type: square;
+    columns: 2;
+   }
+   p.final {
+    background-color: rgb(16, 82, 16);
+    margin: 10px -70px 10px -70px;
+   }
+   p.final {
+    text-align: center;
+    margin: 10px -85px -15px -10px;
+    padding: 7px 0px 4px 7px;
+    color: white;
+   }
+   a.roda {
+    color: white;
+   }
+
+
+  
